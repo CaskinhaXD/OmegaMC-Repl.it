@@ -6,12 +6,19 @@ exports.run = async (client, message, args) => {
   const content = args.join(" ");
   if (!args[0]) {
     return message.channel.send(`.
-        Prefix: o!
-        Commands:
-        o!ban (Em Breve)
-        o!mute (Em Breve)
-        o!clear
-        o!aviso
+        *Hum... Então você que saber os nossos comandos de Administrador*
+
+        *Aqui estão.*
+        
+        **Commands:**
+        
+        :white_small_square: **o!clear** :broom: : *Este comando limpa uma parte do chat você pode escolher entre 1 e 99 mensagens*
+
+        :white_small_square: **o!aviso** :incoming_envelope: : *Este comando envia um aviso para o chat de Aviso*
+
+        :white_small_square: **o!ping** :ping_pong: : *Mostra a latência do server e da API*
+
+        :white_small_square: **o!say** :speaker: : *Mostra uma mensagem que o staff escrever apos o comando falando que o bot que enviou ela*
   `)
   }
 }
