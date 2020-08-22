@@ -16,14 +16,13 @@ client.on("guildMemberRemove", async (member) => {
 
   let guild = await client.guilds.cache.get("741329831257571511");
   let channel = await client.channels.cache.get("741368425313599628");
-  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === ":broken_heart:");
   if (guild != member.guild) {
     return console.log("Alguém saiu do discord");
    } else {
       let embed = await new Discord.MessageEmbed()
       .setColor("#7c2ae8")
       .setAuthor(member.user.tag, member.user.displayAvatarURL())
-      .setTitle(`${emoji} Adeus! ${emoji}`)
+      .setTitle(`:broken_heart: Adeus! :broken_heart:`)
       .setDescription(`**${member.user.username}**, saiu do servidor! :broken_heart:`)
       .setThumbnail(member.user.displayAvatarURL({ dynamic: true, format: "png", size: 1024 }))
       .setFooter("Alguém saiu do Discord :(")
@@ -37,14 +36,13 @@ client.on("guildMemberAdd", async (member) => {
 
   let guild = await client.guilds.cache.get("741329831257571511");
   let channel = await client.channels.cache.get("741353651754369064");
-  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === ":grinning:");
   if (guild != member.guild) {
     return console.log("Sem boas-vindas");
    } else {
       let embed = await new Discord.MessageEmbed()
       .setColor("#7c2ae8")
       .setAuthor(member.user.tag, member.user.displayAvatarURL())
-      .setTitle(`${emoji} Boas-vindas ${emoji}`)
+      .setTitle(`:heart: Boas-vindas :heart:`)
       .setDescription(`**${member.user}**, bem-vindo(a) ao servidor **${guild.name}**! Atualmente estamos com **${member.guild.memberCount} membros**, divirta-se conosco! :heart:`)
       .setThumbnail(member.user.displayAvatarURL({ dynamic: true, format: "png", size: 1024 }))
       .setFooter("Alguém entrou no Discord")
