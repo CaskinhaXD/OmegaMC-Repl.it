@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
     return message.channel.send(`.
         *Hum... Então você que saber sobre o nosso dev delicioso*
 
-        *O nosso dev foi o Caskinha_XD ou Caskinha_XD#6412*
+        *O nosso dev foi o Caskinha_XD#6412*
   `)
   }
 }

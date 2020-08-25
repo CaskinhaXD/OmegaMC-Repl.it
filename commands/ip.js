@@ -8,8 +8,9 @@ let avatar = message.author.displayAvatarURL({format: 'png'});
         .setColor('#000000')
         .setDescription(`
         Ip do server:
-        1° Ip: omegamc.mine-sv.xyz
-        2° Ip: jogar.omegamc.xyz
+        1° IP: Play.omegamc.xyz
+        2° IP: jogar.omegamc.xyz
+        3° IP: omegamc.mine-sv.xyz
         `)
         .setThumbnail(avatar)
         .setAuthor(message.author.tag, avatar);

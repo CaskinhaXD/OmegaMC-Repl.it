@@ -19,6 +19,8 @@ exports.run = async (client, message, args) => {
         :white_small_square: **o!sherek** :sparkles: : *Este comando sumona um sherek bem na sua tela*
 
         :white_small_square: **o!kiss** :kiss: : *Este comando faz com que você possa beijar um player*
+
+        :white_small_square: **o!mchead** :grinning: : *Este comando mostra a cabeça do player que você escolher* 
         `)
   }
 }
