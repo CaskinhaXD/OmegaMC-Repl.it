@@ -45,14 +45,14 @@ exports.run = async (client, message, args) => {
     user.roles.add(muterole)
 
     let embed = new Discord.MessageEmbed()
-        .setTitle("🚫 Omega Mutes 🚫", message.author.avatarURL)
+        .setTitle("🚫 C-Dev Mutes 🚫", message.author.avatarURL)
         .setThumbnail(message.author.avatarURL)
         .addField("📋Staff Tag", message.author, true)
         .addField("📋Membro Tag", message.mentions.members.first(), false)
         .addField("📝Motivo:", reason, true)
         .setColor("RANDOM").setTimestamp()
 
-        client.channels.cache.get('747202301168582686').send(embed)
+        client.channels.cache.get('750842221896663090').send(embed)
     
     user.send(`Você está mutado em **${message.guild.name}** Pela razão \`${reason}\``)
 }

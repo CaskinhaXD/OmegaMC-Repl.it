@@ -24,10 +24,6 @@ exports.run = async (client, message, args) => {
 
         :white_small_square: **o!mute** :book: : *Este comando permite o staff mutar um player*
 
-        :white_small_square: **o!warnstaff** :sob: : *Este comando da um warn no staff. Com 4 warns ele é demotado ou banido (Não lembro oq eu coloquei)*
-
-        :white_small_square: **o!warn** :sob: : *Este comando da um warn em um player com 2 warns ele leva tempmute*
-
         :white_small_square: **o!templock** :lock: : *Este comando da um templock em um chat*
         `)
   }

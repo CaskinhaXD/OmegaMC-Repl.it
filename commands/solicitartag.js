@@ -12,7 +12,7 @@ exports.run = async (client, message, args) => {
     - Quantidade de Subs:
     `)
   } else {
-    var canal = message.guild.channels.cache.find(ch => ch.id === "741354696362426518");
+    var canal = message.guild.channels.cache.find(ch => ch.id === "750842766858387477");
 const msg = await canal.send(
     new Discord.MessageEmbed()
     .setColor("#FFFFF1")

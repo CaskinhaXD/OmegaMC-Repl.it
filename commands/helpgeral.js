@@ -18,8 +18,6 @@ exports.run = async (client, message, args) => {
 
         :white_small_square: **o!ideia / o!sugestao** :envelope_with_arrow: : *Você envia uma sugestão para o server*
 
-        :white_small_square: **o!ip** :pencil: : *Mostra o ip do server*
-
         :white_small_square: **o!serverinfo** :toolbox: : *Este comando mostra especificações do discord*
 
         :white_small_square: **o!lembrar** :diamonds: : *Este comando faz com que o bot te chame apos um certo tempo*

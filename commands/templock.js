@@ -6,7 +6,7 @@ exports.run = async (client, message, args) => {
     let erro = new Discord.MessageEmbed()
         .setTitle(`❓ INFORMAÇÃO DO COMANDO`)
         .setDescription(`\`templock\` - Bloqueie salas de conversas por um tempo`)
-        .addField(`:hammer: **Uso**`, `\`${c.prefix}templock tempo(s/m/h/d)\``)
+        .addField(`:hammer: **Uso**`, `\`${c.prefix}templock tempo(s/m/h)\``)
         .addField(`:book: **Exemplo**`, `\`${c.prefix}templock 1m\``)
         .setColor('#8c0046')
 

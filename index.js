@@ -14,8 +14,8 @@ const config = require("./config.json"); //Pegando o prefixo do bot para respost
 
 client.on("guildMemberRemove", async (member) => { 
 
-  let guild = await client.guilds.cache.get("741329831257571511");
-  let channel = await client.channels.cache.get("741368425313599628");
+  let guild = await client.guilds.cache.get("750694839510630432");
+  let channel = await client.channels.cache.get("750711779679535145");
   if (guild != member.guild) {
     return console.log("Alguém saiu do discord");
    } else {
@@ -34,8 +34,8 @@ client.on("guildMemberRemove", async (member) => {
 
 client.on("guildMemberAdd", async (member) => { 
 
-  let guild = await client.guilds.cache.get("741329831257571511");
-  let channel = await client.channels.cache.get("741353651754369064");
+  let guild = await client.guilds.cache.get("750694839510630432");
+  let channel = await client.channels.cache.get("750711779679535145");
   if (guild != member.guild) {
     return console.log("Sem boas-vindas");
    } else {

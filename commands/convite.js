@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
 
         *Aqui esta:*
 
-        **https://discord.gg/5DaPHCc**
+        **https://discord.gg/qXXPPYe**
   `)
   }
 }

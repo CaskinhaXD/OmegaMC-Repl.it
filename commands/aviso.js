@@ -20,7 +20,7 @@ message.reply("**Você não tem permissão para isso.**");
             .setTimestamp()
             .setThumbnail(client.user.avatarURL())
             
-            client.channels.cache.get('741353749120811020').send('@everyone/@here',embed)//aqui fica o id do canal que é para enviar
+            client.channels.cache.get('750841499301707826').send('@everyone/@here',embed)//aqui fica o id do canal que é para enviar
 ;
             
             };

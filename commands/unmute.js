@@ -28,7 +28,7 @@ exports.run = async (client, message, args) => {
         user.roles.remove(muterole)
 
                 let embed = new Discord.MessageEmbed()
-                .setTitle("🚫 Omega Desmutes 🚫", message.author.avatarURL)
+                .setTitle("🚫 C-Dev Desmutes 🚫", message.author.avatarURL)
                 .setThumbnail(message.author.avatarURL)
                 .addField("📋Staff Tag", message.author.tag, true)
                 .addField("Staff ID", message.author.id, false)
@@ -36,7 +36,7 @@ exports.run = async (client, message, args) => {
                 .addField("Membro ID", message.mentions.members.first().id, false)
                 .setColor("RANDOM").setTimestamp()
                 
-                client.channels.cache.get('747202301168582686').send(embed)
+                client.channels.cache.get('750842221896663090').send(embed)
     
                 user.send(`Você foi desmutado do **${message.guild.name}**`)
         }
